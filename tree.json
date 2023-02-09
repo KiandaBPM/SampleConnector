@@ -1,0 +1,59 @@
+{
+  "text": "Sample Tree Structure",
+  "name": "sampleTreeStructure",
+  "icon": "fa fa-bars",
+  "selectable": false,
+  
+  "nodes": [
+    {
+      "name": "SampleName",
+      "text": "Sample Structure",
+      "icon": "",
+      "type": "sample type",
+      "isproc": true,
+      "selectable": true,
+      "nodes": [
+        {
+          "name": "SampleNodeName",
+          "title": "Sample Import Structure Node Title",
+          "text": "Sample Import Structure Node Text",
+          "icon": "fa fa-arrow-right",
+          "inout": "IMPORT",
+          "type": "STRUCTURE",
+          "desc": "Sample Node Desc",
+          "selectable": false
+        },
+        {
+          "name": "SampleNodeName",
+          "title": "Sample exprot Structure Node Title",
+          "text": "Sample export Structure Node Text",
+          "icon": "fa fa-arrow-left",
+          "inout": "EXPORT",
+          "type": "STRUCTURE",
+          "desc": "Sample Node Desc",
+          "selectable": false
+        }
+      ],
+      "fields": [
+        {
+          "inout": "IMPORT",
+          "type": "IMPORT",
+          "icon": "fa fa-arrow-right",
+          "name": "SampleImportFieldName",
+          "text": "Sample Import field text",
+          "title": "Sample Import Field Title",
+          "fieldtype": "IMPORT"
+        },
+        {
+          "inout": "EXPORT",
+          "type": "EXPORT",
+          "icon": "fa fa-arrow-left",
+          "name": "SampleExportFieldName",
+          "text": "Sample Export field text",
+          "title": "Sample Export Field Title",
+          "fieldtype": "EXPORT"
+        }
+      ]
+    }
+  ]
+}
